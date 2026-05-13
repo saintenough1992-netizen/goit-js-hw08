@@ -64,7 +64,7 @@ const images = [
   },
 ];
 
-const gallery = document.querySelector(".js-gallery");
+const gallery = document.querySelector("gallery");
 const markup = images.map(image => 
     `<li class="js-gallery-item">
         <a class="js-gallery-link" href=${image.original}>
